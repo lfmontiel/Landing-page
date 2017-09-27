@@ -1,0 +1,243 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bootstrap 4 and Sass</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+><link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="color/default.css" rel="stylesheet">
+<link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+<!-- navbar -->
+<div class="navbar-wrapper">
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</a>
+				<h1 class="brand"><a href="index.html">Boostrap 4 </a></h1>
+				<!-- navigegacion nav -->
+				<nav class="pull-right nav-collapse collapse">
+				<ul id="menu-main" class="nav">
+					<li class="dropdown">
+        			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Bootstrap
+        			<span class="caret"></span></a>
+        			<ul class="dropdown-menu">
+         			<li id="q"><a title="team" href="#about">Que es?</a></li>
+         			<li id="i"><a title="install" href="#install">Instalacion y uso</a></li>
+        			</ul>
+     				</li>
+     				<li class="dropdown">
+        			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Sass
+        			<span class="caret"></span></a>
+        			<ul class="dropdown-menu">
+         			<li><a title="team" href="#sass">Que es?</a></li>
+         			<li><a title="install" href="#contact">Instalacion y uso</a></li>
+        			</ul>
+     				</li>
+					<li><a title="acerca" href="#acerca">Acerca de</a></li>
+				</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Header area -->
+<div id="header-wrapper" class="header-slider">
+	<header class="clearfix">
+	<div class="container">
+		<div class="row">
+			<div class="span12">
+				<div id="main-flexslider" class="flexslider">
+					<ul class="slides">
+						<li>
+						<p class="bootstrap">
+							<strong>Bootstrap</strong>
+						</p>
+						</li>
+						<li>
+						<p class="con">
+							con
+						</p>
+						</li>
+						<li>
+						<p class="sass">
+							 <strong>Sass</strong>
+						</p>
+						</li>
+					</ul>
+				</div>
+				<!-- fin del slider -->
+			</div>
+		</div>
+	</div>
+	</header>
+</div>
+<!-- section: bootstrap -->
+<section id="about" class="section">
+<div class="container">
+	<center><h1><strong>Que es Bootstrap </strong><i class="icon-question icon-50x"></i></h1></center>
+	<div class="row">
+		<div class="span11 offset1">
+				<p class="lead" align="justify">
+					<strong>Bootstrap </strong> es el framework de <strong>HTML, CSS y JavaScript</strong> más popular del mundo, empleado para el desarrollo de interfaces Web,  adaptando la pantalla de la página web al tamaño de la pantalla de cualquier dispositivo desde el que se vaya abrir. En términos más técnicos es un conjunto de estilos, efectos, configuraciones responsivas, componentes, partes y piezas que podemos utilizar a nuestro favor al momento de construir un sitio web.
+                    <p class="lead" align="justify">La última versión de  <strong>Bootstrap</strong> es la número <strong>4</strong>, en la  cual se ha incorporado nuevas funciones respecto a la versión anterior, como lo son los paneles contenedores para tarjetas, nuevas unidades de medida para la tipografía (rems). En esta nueva versión también se añade una nueva clase llamada <strong>outline</strong> para los botones mostrando solo un borde, además de haber incorporado los plugins de JavaScript (ECMAScript 6).
+
+				</p>
+		</div>
+	</div>
+</div>
+<!-- /.container -->
+</section>
+<!-- end section: team -->
+<!-- section: services -->
+<section  id="install" class="section green">
+<div class="container">
+	<h4>Instalacion y uso</h4>
+	<!-- Four columns -->
+		<div class="span1 install">
+			<div class="span10">
+                <h2>1. Para poder instalar iremos a la web oficial
+                <a href="http://getbootstrap.com/docs/4.0/getting-started/download/">
+                http://getbootstrap.com
+                </a>
+                y le damos a Download.
+                </h2>
+                <h2>2. El archivo que descargamos lo guardaremos dentro de una carpeta en la siguiente ruta C:\xampp\htdocs\ de nuestro ordenador y descomprimimos el archivo.
+                </h2>
+                <h2>3. Procederemos a enlazar Bootstrap con nuestra página web, En el <code>HEAD</code> de  nuestro archivo <strong>HTML</strong> debemos agregar las siguientes etiquetas.<br> <br>
+                    <img src="img/recortes/etiqueta.jpg" alt="">
+                </h2>
+                <h2>4. En el siguiente video se muestran los pasos anteriores y una prueba de uso de Bootstrap.</h2>
+                <div class="aligncenter">
+                <iframe width="600" height="300" src="https://www.youtube.com/embed/Z7a-6Q9iYNE" frameborder="15" allowfullscreen>
+                </iframe>
+                </div>
+               </div>
+
+  		</div>
+</div>
+</section>
+<section id="sass" class="section">
+	<div class="container">
+		<center><h1><strong>Que es Sass</strong><i class="icon-question icon-50x"></i></h1></center>
+		<div class="row">
+			<div class="span11 offset1">
+                <p class="lead" align="justify">
+                <strong>Sass</strong>(Syntactically Awesome StyleSheets)
+                Es un preprocesador de hojas de estilos CSS, es una nueva forma de escribir nuestras <strong>CSS</strong> introduciendo en ella conceptos de la programación, como variables, funciones y otros conceptos pertenecientes a las hojas de estilos que <strong>Sass</strong> mejora considerablemente, intentando alcanzar la filosofía Rails como: No te repitas tener nuestros proyectos mejor organizados, ahorrar código y tiempo, la cual podemos realizar de forma rápida reutilizando código, entre otros.
+                </p>
+                <p class="lead" align="justify">La gran cualidad de <strong>SASS</strong> es que te permite llevar tu CSS un paso más adelante, ya que entre otras cosas, permite reutilizar código, organizar las clases y permite trabajar mucho más rápido que con el CSS de forma tradicional.</p>
+                </h2>
+            </div>
+		</div>
+	</div>
+</section>
+<!--final de section sass-->
+<section id="contact" class="section orange">
+	<div class="container">
+        <h4>Instalacion y uso</h4>
+        <div class=" span1 install">
+            <div class="span11">
+                <h2>1. Para utilizar Sass antes debemos instalar
+                <a href="https://rubyinstaller.org/">
+                <stron>Ruby.</stron>
+                </a>
+                </h2>
+                <h2>2. Después de instalar los requisitos abrimos la consola de ruby.
+                </h2>
+                <h2>3. Estando en la consola de ruby ejecutamos el siguiente comando <strong>gem install sass</strong>.
+                    <br> <br>
+                    <img src="img/recortes/gem.jpg" alt="">
+                </h2>
+                <h2>4. En la carpeta css de nuestro proyecto agregamos un archivo con extensión .sass(main.sass).
+                </h2>
+                <h2>5. Ya podremos darle estilos a nuestra página utilizando Sass, como se muestra en el siguiente video.
+                </h2>
+                <div class="aligncenter">
+                <iframe width="600" height="300" src="https://www.youtube.com/embed/ELegweuE7CY" frameborder="15" allowfullscreen>
+                </iframe>
+                </div>
+               </div>
+          </div>
+    </div>
+</section>
+<section  id="acerca" class="section">
+	<div class="container">
+	<h4> Quienes Somos?</h4>
+	<div class="row">
+			<div class="span4 flyIn">
+			<div class="people">
+				<img class="team-thumb img-circle" src="img/team/img-4.jpg" alt="" />
+				<h3>Dina Martinez</h3>
+				<p>
+					Estudiante
+				</p>
+			</div>
+		</div>
+		<div class="span4 flyIn">
+			<div class="people">
+				<img class="team-thumb img-circle" src="img/team/img.jpg" alt="" />
+				<h3>Carlos Villera</h3>
+				<p>
+					Estudiante
+				</p>
+			</div>
+		</div>
+		<div class="span4 flyIn">
+			<div class="people">
+				<img class="team-thumb img-circle" src="img/team/img-5.jpg" alt="" />
+				<h3>Luis Montiel</h3>
+				<p>
+					Estudiante
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<footer>
+<div class="container">
+	<div class="row">
+		<div class="span6 offset3">
+			<ul class="social-networks">
+				<li><a href="#"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a></li>
+				<li><a href="#"><i class="icon-circled icon-bgdark icon-twitter icon-2x"></i></a></li>
+				<li><a href="#"><i class="icon-circled icon-bgdark icon-facebook icon-2x"></i></a></li>
+				<li><a href="#"><i class="icon-circled icon-bgdark icon-pinterest icon-2x"></i></a></li>
+			</ul>
+			<p class="copyright">
+				&copy; Maxim Theme. All rights reserved.
+                <div class="credits">
+                    <a href="https://bootstrapmade.com/">Free Bootstrap Themes</a> by BootstrapMade.com
+                </div>
+			</p>
+		</div>
+	</div>
+</div>
+</footer>
+<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.scrollTo.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/inview.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+<script src="contactform/contactform.js"></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-55234356-4', 'auto');
+    ga('send', 'pageview');
+</script>
+</body>
+</html>

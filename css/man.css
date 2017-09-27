@@ -1,0 +1,32 @@
+.bootstrap {
+  color: #4A148C; }
+
+.sass {
+  color: #E91E63; }
+
+.con {
+  color: #fff; }
+
+#1 {
+  color: #fff; }
+
+.install h2 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 20px; }
+  .install h2 li {
+    margin-left: 45px; }
+    .install h2 li img {
+      max-width: 50px;
+      max-height: 5px; }
+
+#sass {
+  background: #f2f2f2; }
+
+.btn {
+  background: #f31f31; }
+
+/*# sourceMappingURL=man.css.map */
